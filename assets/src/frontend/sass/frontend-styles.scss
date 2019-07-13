@@ -1,0 +1,81 @@
+.feedback-container {
+
+	.feedback-choice-wrapper {
+		overflow: hidden;
+		height: auto;
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		margin-bottom: 20px;
+
+		.feedback-choice{
+			float: left;
+			margin-left: 10px;
+		}
+
+		.feedback-choice span {
+			line-height: 0.9em;
+		}
+
+		h3{
+			float: left;
+			margin: 0px !important;
+		}
+	}
+
+
+	.wpf-up,
+	.wpf-down {
+		cursor: pointer;
+		font-size: 2em;
+	}
+
+	.wpf-down {
+		margin-left: 15px;
+	}
+
+
+	.feedback-form-container {
+
+		display: none;
+
+		.feedback-input.error {
+			border: 1px solid red;
+		}
+	}
+
+	.feedback-user-details {
+		display: flex;
+		justify-content: space-between;
+		margin: 10px auto;
+
+		.feedback-name {
+			margin-right: 5px;
+		}
+
+		.feedback-mail {
+			margin-left: 5px;
+		}
+	}
+
+	.g-recaptcha {
+		margin-top: 10px;
+	}
+
+	.g-recaptcha > div {
+		width: auto !important;
+	}
+
+
+	.feedback-submit {
+		margin: 10px auto;
+	}
+
+	#wpf-feedback-content {
+		max-height: 200px;
+	}
+
+	.feedback-after-submit {
+		display: none;
+	}
+}
